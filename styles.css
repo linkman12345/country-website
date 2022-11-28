@@ -1,0 +1,135 @@
+/*
+
+    selector {
+        property: value;
+        property: value;
+
+    }
+
+    selector options:
+    tag name, such as p or img
+    .classname, such as .green or .highlighted
+    tag.class, such as h1/\.green or p.highlighted
+
+    tagname>tagname]
+    .classname>tagname
+    tagname>.classname
+    .classname>.classname
+
+
+*/
+
+.nav {
+    list-style: none;
+
+    border-style: dotted;
+
+    padding-left: 0%;
+
+    width: 50%;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+.nav>li{
+    border-style: ridge;
+
+    display: inline-block;
+}
+
+img {
+    display: block;
+
+    width: 30%;
+
+    margin: auto;
+
+    border-style: groove;
+
+    
+}
+
+.GP {
+    font-family: 'Times New Roman', Times, serif;
+
+    text-align: center;
+
+    background-color: antiquewhite;
+}
+
+.GP1 {
+    text-align: center;
+
+    font-size: 150%;
+
+    font-style: italic;
+
+    color: darkblue;
+}
+
+.Eiffletower {
+    font-family: 'Times New Roman', Times, serif;
+
+    text-align: center;
+
+    font-style: italic;
+
+    font-size: 150%;
+
+}
+
+.Eiffleh1 {
+
+    text-align: center;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    background-color: blue;
+
+}
+
+.PFood {
+
+    background-color: crimson;
+
+    text-align: center;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    font-size: 150%;
+    
+
+}
+
+.H1Food {
+
+    text-align: center;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    font-style: italic;
+
+    font-size: 200%;
+
+}
+
+.PHome {
+
+    text-align: center;
+
+    font-family: 'Times New Roman', Times, serif;
+
+    font-style: italic;
+
+    font-size: 200%;
+
+}
+
+.H1Home {
+
+    text-align: center;
+
+}
+
